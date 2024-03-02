@@ -1,8 +1,7 @@
 a:hover
 {
     display: block;
-    width: max-content;
-    height: 90px;
+    height: 80px;
     background-color: black;
     font-size: 12px;
     text-align: center;
@@ -29,6 +28,7 @@ a:hover
 
 .image-title
 {
+    width: 40px;
     color: white;
     font-size: 30px;
     position: relative;
@@ -62,10 +62,37 @@ a:hover
      border-radius: 5px;
 }
 
-.target-class
+.target
 {
     display: block;
     position: relative;
     left: 500px;
     bottom: 20px;
+}
+
+.input-class
+{
+    width: 200px;
+}
+
+.input-class input[type=text],
+.input-class input[type=number]
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+}
+
+.my-table
+{
+    border-collapse: collapse;
+}
+
+
+.my-table tr td
+{
+    border: 1px solid black;
+    width: 200px;
 }
